@@ -242,14 +242,12 @@ const Login = () => {
               </div>
             </form>
 
-            <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-              <p className="text-sm text-gray-600 text-center mb-2">
-                <strong>Dados para teste:</strong>
+            <div className="mt-6 p-4 bg-white-50 rounded-lg">
+              <p className="text-sm text-white-600 text-center mb-2">
+                
               </p>
               <p className="text-xs text-gray-500 text-center">
-                CPF: 123.456.789-00
-                <br />
-                Senha: 123456
+                
               </p>
             </div>
           </CardContent>
