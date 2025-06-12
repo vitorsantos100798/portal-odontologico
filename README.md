@@ -1,6 +1,6 @@
-# Portal do Beneficiário - Uniodonto Campinas
+# Portal do Beneficiário - Uniodonto 
 
-Um portal web moderno e responsivo para beneficiários de planos odontológicos, desenvolvido em React com design baseado na identidade visual da Uniodonto Campinas.
+Um portal web moderno e responsivo para beneficiários de planos odontológicos, desenvolvido em React com design baseado na identidade visual da Uniodonto.
 
 ## 🚀 Funcionalidades Implementadas
 
