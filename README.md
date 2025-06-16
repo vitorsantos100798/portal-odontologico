@@ -201,5 +201,5 @@ Para implementação em produção, considere:
 
 ---
 
-**Desenvolvido com ❤️ para Uniodonto Campinas**
+**Desenvolvido com ❤️ para Uniodonto**
 
