@@ -106,13 +106,15 @@ const RedeCredenciada = () => {
           <div className="flex items-center justify-between">
             <CardTitle className="text-lg">Buscar Profissionais</CardTitle>
             <Button
-              variant="outline"
-              size="sm"
-              onClick={() => setShowFilters(!showFilters)}
-            >
-              <Filter className="h-4 w-4 mr-2" />
-              Filtros
-            </Button>
+  variant="outline"
+  size="sm"
+  className="group hover:bg-[#BF9CFF] hover:text-white"
+  onClick={() => setShowFilters(!showFilters)}
+>
+  <Filter className="h-4 w-4 mr-2 text-[#DB2777] group-hover:text-white" />
+  Filtros
+</Button>
+
           </div>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -239,10 +241,12 @@ const RedeCredenciada = () => {
                   </div>
 
                   <div className="flex flex-col space-y-2 lg:ml-6">
-                    <Button className="bg-[#B7335D] hover:bg-[#8B2347]">
+                    <Button className="bg-[#DB2777] hover:bg-[#B7335D] text-white">
                       Agendar Consulta
                     </Button>
-                    <Button variant="outline">
+                    <Button variant="outline"
+                    className="border-[#BF9CFF] text-[#BF9CFF] hover:bg-[#BF9CFF] hover:text-white transition"
+                    >
                       Ver Detalhes
                     </Button>
                   </div>

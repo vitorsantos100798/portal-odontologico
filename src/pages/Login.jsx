@@ -144,7 +144,7 @@ const Login = () => {
           alt="Login Illustration"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#B7335D]/90 to-[#8B2347]/60 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#BF9CFF]/90 to-[#BF9CFF]/60 z-10" />
 
         <div className="absolute inset-0 z-20 flex flex-col items-start justify-center px-12">
           <h1 className="text-4xl font-bold text-white drop-shadow-md">
@@ -161,7 +161,7 @@ const Login = () => {
         <Card className="w-full max-w-md z-20">
           <div className="flex justify-center mt-4">
             <img
-              src="https://www.uniodonto.coop.br/wp-content/uploads/2022/10/Uniodonto-originais-da-marca-rgb-Asset-3.png"
+              src="https://dentista.dev.uniodontopaulista.com.br/assets/logo-vertical-BxwgX50x.png"
               alt="Logo da Uniodonto"
               style={{ width: "250px", height: "auto" }}
             />
@@ -222,7 +222,7 @@ const Login = () => {
               <div className="space-y-3">
                 <Button
                   type="submit"
-                  className="w-full bg-[#B7335D] hover:bg-[#8B2347]"
+                  className="w-full bg-[#BF9CFF] hover:bg-[#8B2347]"
                   disabled={isLoading}
                 >
                   {isLoading && (

@@ -167,7 +167,7 @@ const DadosCadastrais = () => {
     <div className="space-y-6">
       {/* Header */}
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">Dados Cadastrais</h1>
+        <h1 className="text-2xl font-bold text-blue-900">Dados Cadastrais</h1>
         <p className="text-gray-600">Mantenha suas informações sempre atualizadas</p>
       </div>
 

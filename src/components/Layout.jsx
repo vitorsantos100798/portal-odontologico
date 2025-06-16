@@ -26,12 +26,12 @@ const Layout = () => {
 
   const menuItems = [
     { icon: Home, label: "Dashboard", path: "/dashboard" },
-    { icon: Calendar, label: "Agendamentos", path: "/agendamentos" },
+    //{ icon: Calendar, label: "Agendamentos", path: "/agendamentos" },
     { icon: MapPin, label: "Rede Credenciada", path: "/rede-credenciada" },
     { icon: FileText, label: "Histórico", path: "/historico" },
     { icon: CreditCard, label: "Financeiro", path: "/financeiro" },
     { icon: Users, label: "Dependentes", path: "/dependentes" },
-    { icon: RefreshCw, label: "Reembolso", path: "/reembolso" },
+    //{ icon: RefreshCw, label: "Reembolso", path: "/reembolso" },
     { icon: Settings, label: "Dados Cadastrais", path: "/dados-cadastrais" },
     { icon: HelpCircle, label: "Ajuda", path: "/ajuda" },
   ];
@@ -60,7 +60,7 @@ const Layout = () => {
               {sidebarOpen ? <X size={20} /> : <Menu size={20} />}
             </Button>
             <img
-              src="https://www.uniodonto.coop.br/wp-content/uploads/2022/10/Uniodonto-originais-da-marca-rgb-Asset-3.png"
+              src="https://dentista.dev.uniodontopaulista.com.br/assets/logo-uniodonto-paulista-mini-DC0-htj1.png"
               alt="Logo da Uniodonto"
               style={{ width: "200px", height: "auto" }}
             />
@@ -74,7 +74,7 @@ const Layout = () => {
               </p>
             </div>
             <Avatar className="h-8 w-8">
-              <AvatarFallback className="bg-gray-200 [color:#B7335D] font-semibold">
+              <AvatarFallback className="bg-[#DB2777] text-white font-semibold">
                 {user?.nome
                   ?.split(" ")
                   .map((n) => n[0])
@@ -108,7 +108,7 @@ const Layout = () => {
                     variant={isActive ? "default" : "ghost"}
                     className={`w-full justify-start space-x-3 ${
                       isActive
-                        ? "bg-[#B7335D] text-white hover:bg-[#B7335D]/90"
+                        ? "bg-[#DB2777]/10 text-[#DB2777] hover:bg-[#B7335D]/20"
                         : "text-gray-700 hover:bg-gray-100"
                     }`}
                     onClick={() => {
